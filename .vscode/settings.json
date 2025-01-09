@@ -1,0 +1,15 @@
+{
+    "cmake.debugConfig": {
+        "setupCommands": [
+            {
+                "description": "Enable pretty-printing",
+                "text": "source ${workspaceFolder}/debugger/printers.py"
+            }
+        ],
+    },
+    "files.associations": {
+        "*.ds": "json",
+        "math.h": "c",
+        "stdio.h": "c"
+    }
+}
